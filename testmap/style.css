@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+
+div.center {
+    text-align: center;
+}
+
+hr {
+    width: 600px;
+    margin-top: 30px;
+}
+
+h1 {
+    margin: 50px 0 50px 0;
+}
+
+button.btn {
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 15px;
+    border: 0.4px solid;
+    background-color: #f33900;
+    opacity: 0.7;
+    transition: 0.9s;
+    box-shadow: 1px 5px 10px;
+}
+button:focus {
+    outline: 0; /* removendo borda externa quando botao estiver em foco*/
+}
+
+button.btn:hover {
+    cursor: pointer;
+    text-align: center;
+    opacity: 1;
+}
