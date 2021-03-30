@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#title {
+    font-size: 30px;
+}
+
+#equal, #title {
+    display: flex;
+    justify-content: center;
+    margin-left: -70px;
+}
+
+#equal {
+    margin-top: 6px;
+    font-size: 5em;
+}
+
+.input {
+    border: 1px solid ;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 2px 4px 10px;
+    margin-right: 20px;
+}
+
+.custom-select {
+    float: right;
+    position: relative;
+    width: 6em;
+}
