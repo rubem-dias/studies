@@ -22,5 +22,4 @@ var myDataRender = myData.map(person => {
 
 var myFunc = () => {
     var p1 = document.getElementById("arrayDone")
-    p1.innerHTML = 
 }
